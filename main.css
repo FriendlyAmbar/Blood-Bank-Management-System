@@ -1,0 +1,30 @@
+/* Center the image and position the close button */
+.imgcontainer_bloodbank {
+    text-align: center;
+    padding-top: 110px;
+    position: relative;
+}
+
+img.bloodbank {
+    padding-left: 20px;
+    width: 100%;
+    height: 150px;
+}
+
+@media screen and (max-width: 700px) {
+    .imgcontainer_bloodbank {
+    padding-top: 10px;
+}
+
+img.bloodbank {
+    padding-left: 0;
+
+}
+}
+
+
+footer {
+    letter-spacing:3px;
+    opacity: 1;
+    color: sandybrown;
+}

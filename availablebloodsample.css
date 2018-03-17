@@ -1,0 +1,141 @@
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .requestbloodtbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Modal Content/Box */
+.modal-content_requestblood {
+    background-color: #fefefe;
+    margin: 2% auto 0% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 20px;
+}
+ 
+/* The Close Button (x) */
+.close_requestblood {
+    position: absolute;
+    right: 25px;
+    top: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close_requestblood:hover,
+.close_requestblood:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 700px) {
+    .cancelbtn, .requestbloodtbtn {
+       width: 100%;
+    }
+     span.psw {
+       display: block;
+       float: none;
+    }
+}
+
+
+
+button.signout {
+   background-color: transparent;
+    color: white;
+    opacity: 1;
+    padding: 12px 30px;
+    margin: 0px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button.signout:hover {
+    background-color: white;
+    opacity: 1;
+    color: black;
+}
+
+@media screen and (max-width: 700px) {
+  button.signout {
+   background-color: transparent;
+    color: black;
+    opacity: 1;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+}
+
+button.signout:hover {
+    background-color: white;
+    opacity: 1;
+    color: black;
+}
+}
+
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-top:20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 16px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+td.tabledatahidden {
+    display:inline-block;
+    white-space: nowrap;
+    width:180px;
+     overflow:hidden !important;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+
+footer {
+    letter-spacing:3px;
+    opacity: 1;
+    color: sandybrown;
+}
